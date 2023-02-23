@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.3)  23 FEB 2023 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.3)  23 FEB 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -126,31 +126,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/root/cooper/math/MA352-discrete/hw1/fundamentals.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 100--109
+Underfull \hbox (badness 10000) in paragraph at lines 82--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--106
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 111--124
+Underfull \hbox (badness 10000) in paragraph at lines 108--117
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--135
-
- []
-
-) (/root/cooper/math/MA352-discrete/hw1/advanced.tex) [3] [4] (/root/cooper/math/MA352-discrete/hw1/main.aux) ) 
+) (/root/cooper/math/MA352-discrete/hw1/advanced.tex [3]) [4] (/root/cooper/math/MA352-discrete/hw1/main.aux) ) 
 Here is how much of TeX's memory you used:
  1870 strings out of 483107
  25025 string characters out of 5964631
- 261573 words of memory out of 5000000
+ 260573 words of memory out of 5000000
  16919 multiletter control sequences out of 15000+600000
  541785 words of font info for 60 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 30i,9n,27p,292b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,27p,355b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
  </root/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /root/cooper/math/MA352-discrete/hw1/main.pdf (4 pages, 133421 bytes).
+Output written on /root/cooper/math/MA352-discrete/hw1/main.pdf (4 pages, 135693 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

@@ -14,7 +14,7 @@
                                     $
                               \item $
                                           \set{ X \subseteq \N : \abs{X} \leq 1 } \;=\; \
-                                          \set{ \emptyset, x },\; x \in \N
+                                          \set{ \emptyset, \set{x} },\; x \in \N
                                     $
                         \end{enumerate}
 
@@ -43,25 +43,7 @@
                   \item $\abs{\pset{\pset{\pset{A}}}} = 2^{2^{2^m}}$
                   \item $\abs{\pset{A}\times\pset{B}} = 2^{m + n}$
                   \item $\abs{\set{X \in \pset{A} : \abs{X} \leq 1}} = m + 1$
-                  \item $\abs{\set{X \subseteq \pset{A} : \abs{X} \leq 1}} \stackrel{?}{=} m + 1$
-            \end{enumerate}
-
-      \item
-            \begin{enumerate}[label=(\alph*), itemsep=16pt]
-                  \item insert venn diagrams
-                        \begin{enumerate}[label=(\roman*), itemsep=10pt]
-                              \item $B \setminus A$
-                              \item $(A \setminus B) \cap C$
-                              \item $(A \setminus B) \cup C$
-                              \item $(A \cup B) \cap C$
-                        \end{enumerate}
-
-                  \item
-                        \begin{enumerate}[label=(\roman*), itemsep=10pt]
-                              \item $\bigcup_{i \in \N} \bigl[i,i+1\bigr] = \R$
-                              \item $\bigcap_{i \in \N} \bigl[0,i+1\bigr] = \set{ x \in \R : 0 \le x \le 2 }$
-                              \item $\bigcap_{a \in \R} \bigl(\set{a} \times [0, 1]\bigr) = \set{ (x,y) : x \in [0,1] \text{ and } y \in [0,1] }$
-                        \end{enumerate}
+                  \item $\abs{\set{X \subseteq \pset{A} : \abs{X} \leq 1}} = 2^m + 1$
             \end{enumerate}
 \end{enumerate}
 
