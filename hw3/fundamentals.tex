@@ -1,0 +1,53 @@
+\subsection*{Relations, Functions, and Cardinality}
+\begin{enumerate}
+    \item
+          \begin{enumerate}[label=(\alph*), itemsep=10pt]
+              \item Prove $R = \set{(x,y) \in \R \times \R : x - y \in \Z}$ on $\R$ is an equivalence relation. \\\\
+                    By definition, a relation is defined as an \textbf{equivalence relation} given that it exibits reflexive, symmetric, and transitive properties.
+                    \begin{enumerate}
+                        \item Suppose $x,y \in \Z$. By definition of $R$ and when $x=y$, $xRy = xRx \implies x - y = x - x = 0 \in \Z$. Thus, $R$ is reflexive.
+                        \item Suppose $x,y \in \Z$ such that $x - y \in \Z$. Then, $y - x = -(x - y)$. $-(x - y) \in \Z \implies y - x \in \Z$. Thus, $xRy \implies yRx$, where $y - x$ means $yRx$ by definition of $R$.
+                        \item Suppose $x,y,z \in \Z$ such that there are the following relations: $xRy$ and $yRz$. Let $a,b \in \Z$ such that $x - y = a$ and $y - z = b$. Then, the following statement holds true: $a + b = (x - y) + (y - z) = x - z$, then $x - z \in \Z$. Therefore, $R$ is transitive because $xRz$ is the result from $xRy$ and $yRz$.
+                        \item Hence, $R$ is an equivalence relation of integer differences.
+                    \end{enumerate}
+
+              \item Consider the function $f: \R^2 \to \R^2$ defined by the formula $f(x,y) = (xy, x^3)$. Is $f$ injective, surjective, or bijective? Explain.
+                    \begin{enumerate}
+                        \item By definition, an injective function has for every $y \in Y$ at most one $x \in X$, where $Y$ is the codomain and $X$ is the domain. By example, let $(x,y) = (0,0)$ and $(x,y) = (0,1)$. Then, $f(0,0) = (0,0)$ and $f(0,1) = (0,0)$, which violates the definition of an injective function. Therefore, $f$ is not injective.
+                        \item By definition, a surjective function has every element $y \in Y$ mapped by at least one element $x \in X$, where $Y$ is the codomain and $X$ is the domain. However, by example, lets say $f(x,y) = (xy, x^3) = (1, 0)$. Then, $x^3 = 0 \implies x = 0 \implies xy = 0$. But, based on the exampled, $xy = 1 \neq 0$. Therefore, $f$ is not surjective.
+                        \item Because $f$ is not injective and not surjective, $f$ is also not bijective by definition.
+                    \end{enumerate}
+          \end{enumerate}
+    \item
+          \begin{enumerate}[label=(\alph*), itemsep=10pt]
+              \item Lets state the relation of $(x - y)^2 < 1$ on $\R$. When $xRy$ is restricted to $\Z$, then the relation holds only when $x = y$. If $x \ge y$, then $x = y$ for the relation to hold. If $x \le y$, then $x = y$ for the relation to hold as well. However, the relation is still valid on $\R$ and isn't simply equality on $\R$. For example, $(1 - 0.5)^2 = 0.25 < 1$.
+              \item Let $A = \set{a,b,c,d} \text{ and } B=\set{a,b}$
+                    \begin{enumerate}
+                        \item $\set{(a,a),(a,b),(b,a),(c,b),(d,a)}$
+                        \item $f = \set{(a,a),(b,b),(c,b),(d,b)}$
+                        \item $f = \set{(a,a),(b,a),(c,a),(d,a)}$
+                        \item $\abs{A} \neq \abs{B} \because {4 \neq 2}$
+                    \end{enumerate}
+          \end{enumerate}
+\end{enumerate}
+
+\subsection*{Basics of Algorithms}
+\begin{enumerate}
+    \item
+          \texttt{function(seq,key):} \\
+          \hspace*{1cm} \texttt{for (i = N; i >= 1; i = i - 1):} \\
+          \hspace*{2cm} \texttt{if (seq[i] == key):} \\
+          \hspace*{3cm} \texttt{return (i + 1)} \\
+          \texttt{return 0}
+
+    \item
+          \newpage
+    \item
+          \texttt{seq = [s\_1, s\_2, ..., s\_N]} \\
+
+          /* \texttt{i from index 0 and j from index N}*/ \\
+          \texttt{function(seq,i,j):} \\
+          \hspace*{1cm} \texttt{if (i == 1):} \\
+          \hspace*{2cm} \texttt{return (s[i].s[j]=s[j],s[i])} \\
+          \hspace*{2cm} \texttt{function(seq, i + 1, j - 1)}
+\end{enumerate}
