@@ -1,93 +1,157 @@
 \subsection*{Introduction to Sets}
 \begin{enumerate}
-    \item
-    \begin{enumerate}[label=(\alph*), itemsep=16pt]
-        \item 
-        \begin{enumerate}[label=(\roman*), itemsep=10pt]
-            \item $
-                \set{ x \in \Z: \abs{2x} < 5 } \;=\; \
-                \set{ -2, -1, 0, 1, 2 } 
-            $
-            \item $
-                \set{ X : X \subseteq \set{3,2,a} \text{ and } \abs{X} = 2 } \;=\; \
-                \set{ \set{ 3,2 }, \set{ 3,a }, \set{ 2,a } }
-            $
-            \item $
-                \set{ X \subseteq \N : \abs{X} \leq 1 } \;=\; \
-                \set{ \emptyset, x },\; x \in \N
-            $
-        \end{enumerate}
+      \item
+            \begin{enumerate}[label=(\alph*), itemsep=16pt]
+                  \item
+                        \begin{enumerate}[label=(\roman*), itemsep=10pt]
+                              \item $
+                                          \set{ x \in \Z: \abs{2x} < 5 } \;=\; \
+                                          \set{ -2, -1, 0, 1, 2 }
+                                    $
+                              \item $
+                                          \set{ X : X \subseteq \set{3,2,a} \text{ and } \abs{X} = 2 } \;=\; \
+                                          \set{ \set{ 3,2 }, \set{ 3,a }, \set{ 2,a } }
+                                    $
+                              \item $
+                                          \set{ X \subseteq \N : \abs{X} \leq 1 } \;=\; \
+                                          \set{ \emptyset, x },\; x \in \N
+                                    $
+                        \end{enumerate}
 
-        \item
-        \begin{enumerate}[label=(\roman*), itemsep=10pt]
-            \item $\set{0, 1, 4, 9, 16, 25, 36}$ \vspace*{0.2cm}
-            \begin{enumerate}[label=(\arabic*)]
-                \item $\set{ x^2 : x \in \Z_{\geq 0} }$
-                \item $\set{ x^2 : x \in \Z \text{ and } x \geq 0 }$
+                  \item
+                        \begin{enumerate}[label=(\roman*), itemsep=10pt]
+                              \item $\set{0, 1, 4, 9, 16, 25, 36}$ \vspace*{0.2cm}
+                                    \begin{enumerate}[label=(\arabic*)]
+                                          \item $\set{ x^2 : x \in \Z_{\geq 0} }$
+                                          \item $\set{ x^2 : x \in \Z \text{ and } x \geq 0 }$
+                                    \end{enumerate}
+                              \item $\set{3, 4, 5, 6, 7, 8}$ \vspace*{0.2cm}
+                                    \begin{enumerate}[label=(\arabic*)]
+                                          \item $\set{ x \in \N : 3 \leq x \leq 8 }$
+                                          \item $\set{ x \in \Z : 3 \leq \abs{x} \leq 8 }$
+                                    \end{enumerate}
+                              \item $\set{\ldots, -\pi, \frac{-\pi}{2}, 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi, \frac{5\pi}{2}, \ldots}$ \vspace*{0.2cm}
+                                    \begin{enumerate}[label=(\arabic*)]
+                                          \item $\set{ \frac{x\pi}{2} : x \in \Z }$
+                                          \item $\set{ x \in \mathbb{R} : sin(x) = sign(x)}$
+                                    \end{enumerate}
+                        \end{enumerate}
             \end{enumerate}
-            \item $\set{3, 4, 5, 6, 7, 8}$ \vspace*{0.2cm}
-            \begin{enumerate}[label=(\arabic*)]
-                \item $\set{ x \in \N : 3 \leq x \leq 8 }$
-                \item $\set{ x \in \Z : 3 \leq \abs{x} \leq 8 }$
+
+      \item
+            \begin{enumerate}[label=(\alph*), itemsep=10pt]
+                  \item $\abs{\pset{\pset{\pset{A}}}} = 2^{2^{2^m}}$
+                  \item $\abs{\pset{A}\times\pset{B}} = 2^{m + n}$
+                  \item $\abs{\set{X \in \pset{A} : \abs{X} \leq 1}} = m + 1$
+                  \item $\abs{\set{X \subseteq \pset{A} : \abs{X} \leq 1}} \stackrel{?}{=} m + 1$
             \end{enumerate}
-            \item $\set{\ldots, -\pi, \frac{-\pi}{2}, 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi, \frac{5\pi}{2}, \ldots}$ \vspace*{0.2cm}
-            \begin{enumerate}[label=(\arabic*)]
-                \item $\set{ \frac{x\pi}{2} : x \in \Z }$
-                \item $\set{ x \in \mathbb{R} : sin(x) = sign(x)}$
+
+      \item
+            \begin{enumerate}[label=(\alph*), itemsep=16pt]
+                  \item insert venn diagrams
+                        \begin{enumerate}[label=(\roman*), itemsep=10pt]
+                              \item $B \setminus A$
+                              \item $(A \setminus B) \cap C$
+                              \item $(A \setminus B) \cup C$
+                              \item $(A \cup B) \cap C$
+                        \end{enumerate}
+
+                  \item
+                        \begin{enumerate}[label=(\roman*), itemsep=10pt]
+                              \item $\bigcup_{i \in \N} \bigl[i,i+1\bigr] = \R$
+                              \item $\bigcap_{i \in \N} \bigl[0,i+1\bigr] = \set{ x \in \R : 0 \le x \le 2 }$
+                              \item $\bigcap_{a \in \R} \bigl(\set{a} \times [0, 1]\bigr) = \set{ (x,y) : x \in [0,1] \text{ and } y \in [0,1] }$
+                        \end{enumerate}
             \end{enumerate}
-        \end{enumerate}
-    \end{enumerate}
-
-    \item 
-    \begin{enumerate}[label=(\alph*), itemsep=10pt]
-        \item $\abs{\pset{\pset{\pset{A}}}} = 2^{2^{2^m}}$
-        \item $\abs{\pset{A}\times\pset{B}} = 2^{m + n}$
-        \item $\abs{\set{X \in \pset{A} : \abs{X} \leq 1}} = m + 1$
-        \item $\abs{\set{X \subseteq \pset{A} : \abs{X} \leq 1}} \stackrel{?}{=} m + 1$ 
-    \end{enumerate}
-
-    \item
-    \begin{enumerate}[label=(\alph*), itemsep=16pt]
-        \item insert venn diagrams
-        \begin{enumerate}[label=(\roman*), itemsep=10pt]
-            \item $B \setminus A$
-            \item $(A \setminus B) \cap C$
-            \item $(A \setminus B) \cup C$
-            \item $(A \cup B) \cap C$
-        \end{enumerate}
-
-        \item 
-        \begin{enumerate}[label=(\roman*), itemsep=10pt]
-            \item $\bigcup_{i \in \N} \bigl[i,i+1\bigr] = \R$
-            \item $\bigcap_{i \in \N} \bigl[0,i+1\bigr] = \set{ x \in \R : 0 \le x \le 2 }$
-            \item $\bigcap_{a \in \R} \bigl(\set{a} \times [0, 1]\bigr) = \set{ (x,y) : x \in [0,1] \text{ and } y \in [0,1] }$
-        \end{enumerate}
-    \end{enumerate}
 \end{enumerate}
-    
+
 
 \subsection*{Introduction to Mathematical Logic}
 \begin{enumerate}
-    \item 
-    \begin{enumerate}[label=(\alph*), itemsep=16pt]
-        \item 
-        \begin{itemize}
-            \item \underline{Proposition}: 0 is an integer. \\
-                \textit{The statement contains the word "is", which is equivalent to the "=" logical operator indicating a truth value; the statement is true because 0 is an integer.}
-            \item \underline{Not a Proposition}: To be or not to be? \\
-                \textit{The statement indicates no truth value and is posing a philisophical question from Hamlet.}
-        \end{itemize}
+      \item
+            \begin{enumerate}[label=(\alph*), itemsep=16pt]
+                  \item
+                        \begin{itemize}
+                              \item \underline{Proposition}: 0 is an integer. \\
+                                    \textit{The statement contains the word "is", which is equivalent to the "=" logical operator indicating a truth value; the statement is true because 0 is an integer.}
+                              \item \underline{Not a Proposition}: To be or not to be? \\
+                                    \textit{The statement indicates no truth value and is posing a philisophical question from Hamlet.}
+                        \end{itemize}
 
-        \item
-        \begin{enumerate}[label=(\roman*), itemsep=10pt]
-            \item $P:\;x=0$ and $Q:\;y=0$ \\
-            $P\land \neg Q$
+                  \item
+                        \begin{enumerate}[label=(\roman*), itemsep=10pt]
+                              \item $P:\;x=0$ and $Q:\;y=0$ \\
+                                    $P\land \neg Q$
 
-            \item $P:$ \textit{determinent is 0} and $Q:$ \textit{matrix is invertible} \\
-            $P \implies \neg Q$ 
+                              \item $P:$ \textit{matrix is invertible} and $Q:$ \textit{determinent is not zero} \\
+                                    $Q \implies P$
 
-            \item $P:\;$
-        \end{enumerate}
-    \end{enumerate}
+                              \item $P:$ \textit{function is continuous} and $Q:$ \textit{function is differentiable} \\
+                                    $Q \implies P$
+
+                              \item $P:$ \textit{you fail} and $Q:$ \textit{stop writing} \\
+                                    $P \implies Q$
+                        \end{enumerate}
+            \end{enumerate}
+
+      \item
+            \begin{enumerate}[label=(\alph*), itemsep=16pt]
+                  \item
+                        \begin{tabular}[t]{c|c|c|c|c|c}
+                              $P$ & $Q$ & $P\implies Q$ & $P \land\neg Q$ & $Q \land\neg Q$ & $P \land\neg Q \implies Q \land\neg Q$ \\
+                              \hline
+                              T   & T   & T             & F               & F               & T                                      \\
+                              T   & F   & F             & T               & F               & F                                      \\
+                              F   & T   & T             & F               & F               & T                                      \\
+                              F   & F   & T             & F               & F               & T
+                        \end{tabular}
+                        \\\\\textbf{Equivalent}
+
+                  \item
+                        \begin{tabular}[t]{c|c|c|c|c|c|c}
+                              $P$ & $Q$ & $R$ & $P \lor Q$ & $(P \lor Q) \land R$ & $Q \land R$ & $P \lor (Q \land R)$ \\
+                              \hline
+                              F   & F   & F   & F          & F                    & F           & F                    \\
+                              F   & F   & T   & F          & F                    & F           & F                    \\
+                              F   & T   & F   & T          & F                    & F           & F                    \\
+                              F   & T   & T   & T          & T                    & T           & T                    \\
+                              T   & F   & F   & T          & F                    & F           & T                    \\
+                              T   & F   & T   & T          & T                    & F           & T                    \\
+                              T   & T   & F   & T          & F                    & F           & T                    \\
+                              T   & T   & T   & T          & T                    & T           & T
+                        \end{tabular}
+                        \\\\\textbf{Not Equivalent}
+
+                  \item
+                        \begin{tabular}[t]{c|c|c|c}
+                              $P$ & $Q$ & $\neg(P \implies Q)$ & $P \land\neg Q$ \\
+                              \hline
+                              F   & F   & T                    & F               \\
+                              F   & T   & F                    & F               \\
+                              T   & F   & T                    & T               \\
+                              T   & T   & F                    & F
+                        \end{tabular}
+                        \\\\\textbf{Equivalent}
+            \end{enumerate}
+      \item
+            \begin{enumerate}
+                  \item
+                        \begin{itemize}
+                              \item \underline{Symbolic}: $a + x = x;\; \exists a, \forall x \in \R$
+                              \item \underline{Negation}: There exists a real number $x$ for which $a + x = x$ is false for every real number $a$.
+                        \end{itemize}
+
+                  \item
+                        \begin{itemize}
+                              \item \underline{Symbolic}: $\abs{f(x) - b} < \epsilon \text{ and } x > M;\; \forall\epsilon, \exists M > 0$
+                              \item \underline{Negation}: For every positive number $M$ there is a positive number $\epsilon$ for which $\abs{f(x) - b} \ge \epsilon$ whenever $x \le M$
+                        \end{itemize}
+
+                  \item
+                        \begin{itemize}
+                              \item \underline{Symbolic}: $f=polynomial \text{ and } deg(f) > 2 \implies f^{\prime\prime} \neq 0$
+                              \item \underline{Negation}: If $f$ is not a polynomial or its degree is less than or equal to 2, then $f^\prime$ is a constant.
+                        \end{itemize}
+            \end{enumerate}
 \end{enumerate}
 
